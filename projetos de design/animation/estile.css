@@ -1,0 +1,103 @@
+.container{
+    margin: auto;
+    height: 600px;
+    width: 600px;
+ background-color: gray;
+    position: relative;
+}
+.moveBola{
+    transform: translate(0px,0px);
+
+    animation: moveBola 1.4s linear infinite alternate-reverse;
+}
+.collorCirculo{
+
+    animation: collor 2.2s linear infinite;   
+
+}
+.circulo{
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    background-color: blue;
+    animation: circulo 1.4s linear infinite;
+     
+}
+@keyframes circulo {
+    0%{
+        top: 0px;
+
+        transform:  scale(1,1);
+    }
+    10%{
+        top: 50px;
+
+        transform: scale(1,1);
+    }
+
+    46%{
+        top: 340px;
+        transform: scale(0.8,1.2);
+
+  
+        
+    }
+
+    50%{
+        top: 440px;
+
+        transform: scale(1.2,0.8);
+        
+    }
+    54%{
+        top: 340px;
+        transform: scale(0.8,1.2);
+
+   
+        
+    }
+
+    90%{
+        top: 50px;
+
+        transform: scale(1,1);
+    }
+    100%{
+        top: 0px;
+
+        transform:  scale(1,1);
+    
+    
+    }
+
+}
+@keyframes moveBola {
+    0%{
+        transform: translate(0px,0px);
+    }
+    100%{
+        transform: translate(440px,0px);  
+    }
+
+}
+@keyframes collor {
+    0%{
+        background-color: aqua;
+    }
+    25%{
+        background-color: blueviolet;
+    }
+    50%{
+        background-color:  brown;
+    }
+    75%{
+        background-color:  yellow;
+    }
+    100%{
+        background-color: cadetblue;
+
+    }
+}

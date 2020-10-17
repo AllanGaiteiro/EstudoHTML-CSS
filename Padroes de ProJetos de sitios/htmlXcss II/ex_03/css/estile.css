@@ -1,0 +1,70 @@
+body{
+    background-image: url(../images/fundo.jpg);
+    margin: 0px;
+}
+.container{
+    background-color: #ebebeb;
+    width: 960px;
+    margin: auto;
+    position: relative;
+}
+#imagen{
+    text-align: center;    
+}
+
+#imagen h1{
+    position: absolute;
+    left: 470px;
+    top: 625px;
+    font-size: 70px;
+    color: #e74c30;
+}
+#sobre{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px;
+}
+#sobre img{
+    height: 290px;
+    width: 290px;
+    border-radius: 50%;
+}
+#sobretxt{
+    width: 380px;
+
+}
+.saibaMais{
+    background-color:#e74c30;
+    border-radius: 4px;
+    color: white;
+    margin-left: auto;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+.saibaMais h3{
+    line-height: 30px;
+}
+#Videos{
+    padding: 90px;
+    color: #e74c30;
+}
+.topVids{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    margin: 0px;
+    padding-left: 95px;
+    padding-right: 95px;
+    background-color: #545f8c;
+    color: #ebebeb;
+    margin-bottom: -20px;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}

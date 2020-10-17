@@ -1,0 +1,191 @@
+:root{
+    --padPadrao: 80px;
+    --padDobro: 160px;
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+    background-color: #003650;
+    font-family: Arial;
+    box-shadow: 10px 10px 7px 2px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+h1{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+nav{
+    width: 100%;
+    margin: -10px;
+    height: 80px;
+    line-height: 80px;
+}
+ul{
+    text-align: right;
+    height: 100%;
+    margin: 0px;
+    list-style-type: none;
+
+}
+li{
+    display: inline-block;
+    color: white;
+    margin-right: 80px;
+}
+
+.logoP{
+    color: white;
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    
+    font-size: 1.75rem; 
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.header{
+
+    width: 100%;
+    position: relative;
+}
+header img{
+
+    width: 100%;
+}
+.islogan{
+    position: absolute;
+    top: 290px;
+    left: 580px;
+    height: 170px;
+    width: 300px;
+    background-color: #a5adb1;
+}
+.globallink{
+    background-color: #ebebeb;
+    padding-bottom: var(--padPadrao);
+    padding-left: var(--padDobro);
+    padding-right: var(--padDobro);
+    padding-top: var(--padPadrao);
+}
+#serviços{
+    padding: var(--padPadrao);
+    color: white;
+}
+.serviços{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.categoria{
+    width: 145px;
+    text-align: center;
+}
+.categoria img{
+    text-align: center;
+    width: 9.0625rem;
+
+}
+#clientes{
+    background-color:#ebebeb;
+    padding: var(--padPadrao);
+}
+.parceiros{
+    display: flex;
+    justify-content: space-between; 
+}
+.parceiros img{
+    width: 160px;
+}
+#localização{
+    padding: var(--padPadrao);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: -30px;
+}
+.endereço{
+    width: 315px;
+}
+iframe{
+    width: 400px;
+    height: 400px;
+}
+@media (max-width:600px){
+    :root{
+        --padPadrao: 20px;
+        --padDobro:40px;
+    }
+    body {
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+
+    nav{
+        height: 80px;
+        line-height: 20px;
+        width: 100%;
+    }
+    ul{
+        padding: 0px;
+    }
+    li{
+        display: block;
+        margin-left: 100px;
+    }
+    .logoP{
+        left: 40px;
+        top: 20px;
+        width:150px;
+
+    }
+    .header{
+        background-color: #a5adb1;    
+    }
+    .header img{
+    
+        width: 100%;
+    }
+    .islogan{
+        position: relative;
+        top: 30%;
+        left: 10%;
+        width: 80%;
+
+        
+
+    }
+    .serviços{
+    
+        display: block;
+    }
+    .categoria {
+
+        width: 100%;
+    }
+    .categoria img {
+        width: 100%;
+    }
+    .parceiros{
+        text-align: center;
+        display: block;
+    }
+    #localização{
+        display: block;
+
+    }
+    .endereço{
+        padding-bottom: var(--padPadrao);        
+    }
+    iframe{
+
+        width: 100%;
+    }
+
+}

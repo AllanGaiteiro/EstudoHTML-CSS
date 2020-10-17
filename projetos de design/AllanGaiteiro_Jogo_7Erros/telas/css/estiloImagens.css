@@ -1,0 +1,50 @@
+
+
+.er1{
+    position: absolute;
+    top: 135px;
+    left: 75px;
+    opacity: 0;
+    transition: all 1s;
+}
+.er2{
+    position: absolute;
+    top: 15px;
+    left: 130px;
+    opacity: 0;
+    transition: all 1s;
+}
+.er3{
+    position: absolute;
+    top: 70px;
+    left: 180px;
+    opacity: 0;
+    transition: all 1s;
+}
+.er4{
+    position: absolute;
+    top: 65px;
+    left: 280px;
+    opacity: 0;
+    transition: all 1s;
+}
+.er5{
+    position: absolute;
+    top: 155px;
+    left: 320px;
+    opacity: 0;
+    transition: all 1s;
+}
+.er6{
+    position: absolute;
+    top: 190px;
+    left: 165px;
+    opacity: 0;
+}
+.er7{
+    position: absolute;
+    top: 258px;
+    left: 125px;
+    opacity: 0;
+
+}

@@ -1,0 +1,122 @@
+body{
+    background-color: #ebebeb;
+
+}
+.Contayner{
+    background-color: white;
+    width: 960px;
+    margin: auto;
+    margin-top: -5px;
+    
+}
+nav{
+    display: flex;
+
+
+}
+.inicio img{
+    width: 100%;
+
+}
+.iniciotxt{
+    padding: 80px;
+}
+ul{
+    display: flex;
+    margin-left: 450px;
+
+
+}
+li{
+   
+    color: black;
+    list-style-type: none ;
+    margin-right: 60px;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+
+}
+#funçoes{
+    color: white;
+    padding: 80px;
+    background-color: #330065;
+}
+.fumimg{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.funSup{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.funInf{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+#Video {
+    background-color: #330065;
+
+
+}
+#Video iframe{
+    height: 540px;
+    width: 100%;
+
+
+}
+
+#Contato{
+    background-color: #330065;
+    display: flex;
+    color: white;
+    padding: 80px;
+
+}
+form{
+    width: 420px;
+
+
+}
+.digite{
+    width: 100%;
+    margin: 6px;
+    border-radius: 5px;
+
+}
+textarea{
+    width: 100%;
+    margin: 6px;
+    border-radius: 5px;
+}
+#enviar{
+    color: black;
+    width: 80px;
+    background-color:  #be2393;
+    margin: 6px;
+    border-radius: 5px;
+    border-style: dashed;
+}
+
+footer{
+    background-color: #be2393;
+    text-align: center;
+    margin: 0px;
+    padding: 4px;
+}
+h2{
+    font-family: cursive;
+    margin-bottom: -20px;
+
+}
+h1{
+    font-family: cursive;
+  
+
+}

@@ -1,0 +1,63 @@
+:root{
+    --cor1: red;
+    --cor2: #00ff;
+    --time: 200ms;
+}
+a{     
+    
+    width: 150px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(0deg, var(--cor1) 0%, var(--cor2)0%);
+    display:table-cell;
+    float: left;
+    list-style-type: none;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    animation: cor var(--time) linear;
+    background: linear-gradient(0deg, var(--cor1) 100%, var(--cor2)100%);
+}
+
+@keyframes cor {
+    0%{
+        background: linear-gradient(0deg, var(--cor1) 5%, var(--cor2)15%);
+    }
+    10%{
+        background: linear-gradient(0deg, var(--cor1) 15%, var(--cor2)30%);
+    }
+    20%{
+        background: linear-gradient(0deg, var(--cor1) 25%, var(--cor2)45%);
+    }
+    30%{
+        background: linear-gradient(0deg, var(--cor1) 35%, var(--cor2)60%);
+    }
+    50%{
+        background: linear-gradient(0deg, var(--cor1) 45%, var(--cor2)75%);
+    }
+    50%{
+        background: linear-gradient(0deg, var(--cor1) 55%, var(--cor2)90%);
+    }
+    60%{
+        background: linear-gradient(0deg, var(--cor1) 65%, var(--cor2)100%);
+    }
+    70%{
+        background: linear-gradient(0deg, var(--cor1) 75%, var(--cor2)100%);
+    }
+    80%{
+        background: linear-gradient(0deg, var(--cor1) 85%, var(--cor2)100%);
+    }
+    90%{
+        background: linear-gradient(0deg, var(--cor1) 95%, var(--cor2)100%);
+    }
+
+    100%{
+        background: linear-gradient(0deg, var(--cor1) 100%, var(--cor2)100%);
+    }
+}
+

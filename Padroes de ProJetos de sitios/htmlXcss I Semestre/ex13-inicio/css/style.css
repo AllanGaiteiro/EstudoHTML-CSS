@@ -1,0 +1,87 @@
+body{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Container{
+    background-color: #ebebeb;
+    margin: auto;
+    width: 960px;
+    margin: 0 auto;
+}
+.Container img{
+    width: 100%;
+}
+nav{
+    background-color: #6e0046;
+    color: white;
+    text-align: right;
+}
+ul{
+    text-align: right;
+    margin: 0;
+    padding: 20px;
+}
+li{
+    list-style-type: none ;
+    display: inline-block ;
+    margin-right: 60px;
+    margin: center;
+}
+a{
+    color: white ;
+    text-decoration: none ;
+
+    
+}
+.inicio{
+    padding: 80px;
+}
+
+.obras{
+    background-color: #6e0046;
+    color: white;
+    display: flex;
+    padding: 80px;
+    justify-content: space-between;
+}
+.obras1{
+    width: 400px;
+}
+.obrasimg{
+    width: 320px;
+}
+#obra1{
+        margin-bottom: 50px;
+}
+.obrasimg img{
+    width: 100%;
+
+}
+.documentario{
+    padding: 80px;
+}
+.saibaMais{
+    position: relative;
+    background-color: #6e0046;
+    color: white;
+}
+#h2{
+    position: absolute;
+    right: 110px;
+    top: 70px;
+}
+.girl {
+    background-color: #6e0046;
+    opacity: 0.5; 
+}
+
+.saibamais2{
+    padding: 80px;
+}
+.saibamais2 p{
+    font-style: italic;
+}
+#img1{
+    background-color: black;
+
+}

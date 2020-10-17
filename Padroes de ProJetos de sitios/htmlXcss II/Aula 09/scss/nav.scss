@@ -1,0 +1,55 @@
+.nav {
+  position: absolute;
+  right   : 0px;
+  display : flex;
+  a {
+    color          : white;
+    text-decoration: none;
+    display        : table-cell;
+    width          : 100px;
+    height         : 60px;
+    text-align     : center;
+    font-size      : 16px;
+    line-height: 60px;
+  }
+  a:hover {
+    background: rgb(77, 160, 13);
+  }
+
+  @media(max-width: 600px) {
+    display: none;
+  }
+}
+.menuRespons {
+  position: absolute;
+  right   : 0px;
+  z-index : 100;
+  display : block;
+
+  a {
+    display   : block;
+    background: rgb(77, 160, 13);
+    
+  }
+}
+
+#btnMenu {
+  position: absolute;
+  right   : 0px;
+  display : none;
+  @media(max-width: 600px) {
+    display        : block;
+    color          : white;
+    text-decoration: none;
+    display        : table-cell;
+    width          : 100px;
+    height         : 60px;
+    text-align     : center;
+    font-size      : 16px;
+    line-height: 60px;
+  }
+}
+
+#btnMenu:hover {
+  background: rgb(77, 160, 13);
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rum+Raisin&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estiloGeral.css">
+  <link rel="stylesheet" href="css/estiloImagens.css">
+  <script src="scripts/jogo.js"></script>
+  <script src="scripts/sons.js"></script>
+  <title>7 Erros</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jogo">
+      <div class="imagem1">
+        <img id="img2" src="midias/allanGaiteiroImgs/imageErrad.png" onclick="tocarSomErro()" alt="">
+        <img class="er1" src="midias/erro.png" onclick="marcarErro('er1')" alt="">
+        <img class="er2" src="midias/erro.png" onclick="marcarErro('er2')" alt="">
+        <img class="er3" src="midias/erro.png" onclick="marcarErro('er3')" alt="">
+        <img class="er4" src="midias/erro.png" onclick="marcarErro('er4')" alt="">
+        <img class="er5" src="midias/erro.png" onclick="marcarErro('er5')" alt="">
+        <img class="er6" src="midias/erro.png" onclick="marcarErro('er6')" alt="">
+        <img class="er7" src="midias/erro.png" onclick="marcarErro('er7')" alt="">
+      </div>
+      <div class="imagem2">
+        <img id="img2" src="midias/allanGaiteiroImgs/imageCert.png" onclick="tocarSomErro()" alt="">
+        <img class="er1" src="midias/erro.png" onclick="marcarErro('er1')" alt="">
+        <img class="er2" src="midias/erro.png" onclick="marcarErro('er2')" alt="">
+        <img class="er3" src="midias/erro.png" onclick="marcarErro('er3')" alt="">
+        <img class="er4" src="midias/erro.png" onclick="marcarErro('er4')" alt="">
+        <img class="er5" src="midias/erro.png" onclick="marcarErro('er5')" alt="">
+        <img class="er6" src="midias/erro.png" onclick="marcarErro('er6')" alt="">
+        <img class="er7" src="midias/erro.png" onclick="marcarErro('er7')" alt="">
+      </div>
+      <div class="interface">
+        <a href="../index.html">
+          <img src="midias/home.png" alt=""></a>
+        <div class="contaAcertos">
+          <div class="int--er"></div>
+          <div class="int--er"></div>
+          <div class="int--er"></div>
+          <div class="int--er"></div>
+          <div class="int--er"></div>
+          <div class="int--er"></div>
+          <div class="int--er"></div>
+        </div>
+        <div class="atribuicao">
+          <a href="#">Tela criada por <strong>Allan Gaiteiro</strong></a>
+        </div>
+      </div>
+      <div class="telaVit" id="telaVit">
+        <div class="bgTelaVit"></div>
+        <div class="bannerVit">
+          <img src="midias/bannerVit.png" alt="">
+          <h1>Mandou Bem!!</h1>
+        </div>
+      </div>
+      <audio id="erroSom">
+        <source src="midias/erro.mp3" type="audio/mpeg">
+        <source src="midias/erro.ogg" type="audio/ogg">
+      </audio>
+      <audio id="acertoSom" src="midias/acerto.mp3">
+        <source src="midias/acerto.mp3" type="audio/mpeg">
+        <source src="midias/acerto.ogg" type="audio/ogg">
+      </audio>
+      <audio id="bgSom" autoplay loop>
+        <source src="midias/bg.mp3" type="audio/mpeg">
+        <source src="midias/bg.ogg" type="audio/ogg">
+      </audio>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+#container{
+    height: 720px;
+    width: 900px;
+    background-color: rgb(130, 187, 214);
+    margin: auto;
+    position: relative;
+    
+}
+#quadrado{
+    position: absolute;
+    left: 504px;
+    top: 293px;
+    width: 30px;
+    height: 120px;
+    background-color: rgb(250, 14, 14);
+    transform: rotate(45deg);
+}
+#circulo{
+    position: absolute;
+    left: 360px;
+    top: 300px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: rgb(56, 216, 221);
+
+}
+#triangulo{
+    position: absolute;
+    left: 350px;
+    top: 400px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 200px solid #fece81;
+    transform: rotate(180deg);
+    
+}

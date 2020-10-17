@@ -1,0 +1,18 @@
+h1{
+    font-size: 6rem;
+    color: black;
+    text-shadow: 0rem 0.5rem  0.5rem blue, 0rem -0.5rem  0.5rem red;
+    /*-webkit-text-fill-color: transparent;*/
+}
+h2{
+    font-size: 6rem;
+    color: black;
+    text-shadow: 0.5rem 0rem  0.5rem blue, -0.5rem 0rem  0.5rem red;
+    /*-webkit-text-fill-color: transparent;*/
+}
+h3{
+    font-size: 6rem;
+    color: black;
+    text-shadow: 0rem 0.5rem  0.5rem rgb(235, 220, 8), 0rem -0.5rem  0.5rem rgb(0, 26, 255), 0.5rem 0rem  0.5rem rgb(0, 255, 21), -0.5rem 0rem  0.5rem red;
+    /*-webkit-text-fill-color: transparent;*/
+}

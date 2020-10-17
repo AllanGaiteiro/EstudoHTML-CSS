@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
+
+.nav {
+  background: red;
+  color: white;
+  height: 60px;
+}
+
+.menu {
+  text-align: right;
+  line-height: 60px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    display: none;
+    -webkit-transform: translateY(60px);
+            transform: translateY(60px);
+    background: black;
+  }
+  .menu a {
+    display: block;
+  }
+}
+
+.revelaMenu {
+  display: block;
+}
+
+.menuBTN {
+  display: none;
+  float: right;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+}
+
+@media only screen and (max-width: 600px) {
+  .menuBTN {
+    display: block;
+  }
+}
+
+.logo {
+  float: left;
+  color: white;
+}
+
+.rodape {
+  background: red;
+  height: 80px;
+}
+
+img {
+  width: 100%;
+}
+
+.secundario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .secundario {
+    display: block;
+  }
+}
+
+.card {
+  width: 49%;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */

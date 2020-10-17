@@ -1,0 +1,81 @@
+ body {
+     background-image: url(../images/background.jpg) ;
+ }
+.container{
+    width: 960px ;
+    margin: auto;
+
+
+
+}
+
+.inicio{
+    background-color: #3f0706 ;
+    color: white ;
+    text-align: right ;
+    padding-right: 80px;
+    padding: 5px;
+
+  
+    
+}
+
+li {
+    list-style-type: none ;
+    display: inline-block ;
+    margin-right: 40px;
+
+}
+a{
+    color: white ;
+    text-decoration: none ;
+}
+
+.meio {
+    background-color: #f4f0e4;
+    padding: 90px ;
+
+}
+.nossos_cafes{
+    background-color: #bea074 ;
+    padding: 90px ;
+
+}
+.cafes {
+    display: flex ;
+
+
+
+}
+.cafes1 {
+    background-color: white ;
+    margin-right: 18px ;
+    padding: 10px ;
+    width: 120px ;
+    border-radius: 10px;
+    box-shadow: 5px 3px 3px ;
+   
+  
+    
+
+
+
+}
+#imgcafe {
+    width: 100% ;
+
+}
+.fim {
+    background-color: #3f0706 ;
+    padding: 90px ;
+    
+    color: white ;
+    
+
+}
+#cafe {
+
+}
+#endereso{
+
+}

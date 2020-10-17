@@ -1,0 +1,99 @@
+
+.container {
+    width: 1000px ;
+    margin: auto;
+    
+    
+
+}
+#img_cab {
+    width: 100%;
+}
+.inicio {
+    padding: 100px;
+
+}
+.inicio1 {
+    margin-bottom: 100px;
+    text-align: center
+    
+    
+}
+.inicio2 {
+
+}
+.sinopse {
+    background-color: #404040 ;
+    color: white ;
+    padding: 100px;
+    
+
+}
+.sinopseD {
+    display: flex ;
+
+}
+.sinopse1{
+    margin-right: 50px;
+    
+
+    
+
+}
+.sinopse2 {
+    margin-left: 50px;
+
+}
+#img_simp1 {
+    margin-bottom: 100px;
+}
+.Gameplay {
+    
+    padding: 100px;
+
+
+}
+.GameplayD {
+    display: flex ;
+
+}
+.Gameplay1 {
+    margin-right: 50px;
+    
+    
+
+
+}
+.Gameplay2 {
+    margin-left: 50px;
+    
+    
+
+}
+#img_gam1 {
+    margin-bottom: 100px;
+}
+.rodape {
+    background-color: #404040 ;
+    color: white ;
+    padding: 100px;
+    
+
+
+}
+.rodapeD {
+    display: flex;
+
+}
+
+.rodape1 {
+    margin-right: 50px;
+
+}
+.rodape2 {
+    margin-left: 50px;
+
+}
+#JOGUE {
+    color: blue;
+}

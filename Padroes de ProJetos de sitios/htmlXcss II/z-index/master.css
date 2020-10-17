@@ -1,0 +1,24 @@
+.pai{
+  width: 800px;
+  height: 600px;
+  border: 2px solid black;
+  position: relative;
+}
+.filho{
+  width: 200px;
+  height: 200px;
+  background: blue;
+  position: absolute;
+  top: 120px;
+  left: 15px;
+  z-index: 0;
+}
+.filho2{
+  width: 200px;
+  height: 200px;
+  background: green;
+  position: absolute;
+  top: 170px;
+  left: 50px;
+  z-index: -1;
+}

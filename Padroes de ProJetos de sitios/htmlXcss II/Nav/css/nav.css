@@ -1,0 +1,81 @@
+.container {
+  width: 960px;
+  height: 1000px;
+  background-color: cadetblue;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
+
+nav {
+  height: 60px;
+  background-color: brown;
+}
+
+nav #btn_menu {
+  display: none;
+}
+
+nav a {
+  float: right;
+  display: block;
+  text-decoration: none;
+  color: black;
+  width: 140px;
+  height: 60px;
+  line-height: 60px;
+  background-color: blue;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #1d1d8a;
+}
+
+@media (max-width: 600px) {
+  nav #btn_menu {
+    display: block;
+    text-align: right;
+    padding-right: 20px;
+    margin-left: calc(100% - 60px);
+    width: 40px;
+    -webkit-animation: none;
+            animation: none;
+  }
+  nav a {
+    display: none;
+    float: none;
+    width: 100%;
+    margin-left: -100%;
+    -webkit-animation: mexer 1s linear;
+            animation: mexer 1s linear;
+    margin-left: 0%;
+  }
+  @-webkit-keyframes mexer {
+    from {
+      margin-left: -100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  @keyframes mexer {
+    from {
+      margin-left: -100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  nav:hover a {
+    display: block;
+  }
+}
+/*# sourceMappingURL=nav.css.map */

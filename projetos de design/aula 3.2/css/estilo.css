@@ -1,0 +1,155 @@
+body{}
+
+.container{
+    width: 960px;
+    height: 820px;
+
+    background-color: aqua;
+    margin: auto;
+}
+
+.cabeça{
+    width: 100%;
+    position: relative;
+
+}
+
+#cabeçaCirculo{
+    position: absolute;
+    top: 45px;
+    left: 390px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+#bicoTriangulo{
+    position: absolute;
+    top: 35px;
+    left: 587px;
+    width: 0px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 200px solid rgb(233, 149, 23);
+    transform: rotate(90deg);
+}
+
+#cabeloTriangulo90grau{
+    position: absolute;
+    top: 0px;
+    left: 304px;
+    width: 0px;
+    height: 0px;
+    border-right: 0px solid transparent;
+    border-left: 110px solid transparent;
+    border-bottom: 200px solid red;
+    transform: rotate(-60deg);
+
+}
+
+.corpo{
+    position: relative;
+}
+
+#corpoRetangulo{
+    position: absolute;
+    top: 225px;
+    left: 405px;
+    width: 150px;
+    height: 400px;
+    background-color: blue;
+}
+
+#rabo1Triangulo90grau{
+    position: absolute;
+    top: 410px;
+    left: 300px;
+    width: 0px;
+    height: 0px;
+    border-right: 0px solid transparent;
+    border-left: 80px solid transparent;
+    border-bottom: 200px solid blue;
+    transform: rotate(90deg);
+}
+
+#rabo2Triangulo90grau{
+    position: absolute;
+    top: 460px;
+    left: 325px;
+    width: 0px;
+    height: 0px;
+    border-right: 0px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 150px solid rgb(27, 87, 216);
+    transform: rotate(90deg);
+}
+
+.perna{    
+    position: relative;
+}
+
+#pernaRetangulo{
+    position: absolute;
+    top: 625px;
+    left: 450px;
+    width: 60px;
+    height: 200px;
+    background-color: rgb(27, 87, 216);
+}
+
+#peTriangulo90grau{
+    position: absolute;
+    top: 725px;
+    left: 470px;
+    width: 0px;
+    height: 0px;
+    border-right: 0px solid transparent;
+    border-left: 80px solid transparent;
+    border-bottom: 120px solid rgb(233, 149, 23);
+    transform: rotate(90deg);
+}
+.paisagem{
+    position: relative;
+
+}
+.sol{
+    position: absolute;
+    top: 15px;
+    left: 800px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.nuvem1{
+    position: absolute;
+    top: 30px;
+    left: 800px;
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white; 
+}
+
+.nuvem2{
+    position: absolute;
+    top: 60px;
+    left: 650px;
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white; 
+}
+
+.nuvem3{
+    position: absolute;
+    top: 55px;
+    left: 750px;
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white; 
+}

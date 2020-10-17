@@ -1,0 +1,105 @@
+html {
+    scroll-behavior: smooth ;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+}
+body {
+    background-color: #ebebeb;
+    margin:0px;
+}
+.container{
+    width: 960px ;
+    margin: auto;
+    background-color: #382119;  
+}
+#h1_1{
+    margin: 0px;
+}
+.hero {
+    position: relative;
+}
+#h2_1 {
+    color: white;
+    position: absolute; 
+    bottom: 30px;
+    left: 350px;
+
+}
+
+#logo{
+    width: 60px;
+    height: 50px;
+    margin-left: 20px;
+    margin:0px;
+}
+.cabesalho{
+    padding: 5px ;
+    margin:0px;
+    display: flex;
+    height: 50px;
+}
+.header_img {
+    width: 60px;
+    height: 50px;
+    margin:0px;
+}
+.header_nav{
+    margin-left: 540px;
+
+}
+.header_nav ul {
+    display: flex;
+}
+.header_nav li {
+    list-style-type: none ;
+    margin-right: 40px;
+}
+a {
+    text-decoration: none ;
+    color: white;
+}
+.Sobre {
+    padding: 90px;
+    background-color: white ;
+}
+.Sobre2 {
+    display: flex ;
+}
+#sobre_img{
+    border-radius: 100%;
+}
+.sobre_img{
+    margin-right: 90px;
+}
+.Menu {
+    padding: 90px;
+}
+.Menu_lanches{
+    justify-content: space-between;
+    display: flex ;
+}
+.lanches{
+    width: 170px;
+    background-color: white ; 
+    padding: 5px;
+    border-radius: 5px;
+}
+.lanches img {
+    width: 100%;
+    border-radius: 100%;
+}
+.detalhes{
+    background-color: #d3c39d;
+    display: flex;
+    padding: 90px; 
+}
+.detalhes_esq{
+    margin-right: 90px;
+    
+}
+.rodape {
+    text-align: center;
+    padding: 6px;
+}

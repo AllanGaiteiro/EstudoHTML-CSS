@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "estilo.css",
+	"sources": [
+		"../scss/estilo.scss"
+	],
+	"sourcesContent": [
+		"body{\r\n    margin: 0px;\r\n    .container{\r\n        width: 960px;\r\n        margin: auto;\r\n        section{\r\n            display: flex;\r\n            justify-content: space-between;\r\n        }\r\n    }\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,IAAI,CAAA;EACA,MAAM,EAAE,GAAG;CASd;;;AAVD,AAEI,IAFA,CAEA,UAAU,CAAA;EACN,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;CAKf;;;AATL,AAKQ,IALJ,CAEA,UAAU,CAGN,OAAO,CAAA;EACH,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CACjC"
+}

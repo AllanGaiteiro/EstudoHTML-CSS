@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>interatividade</title>
+</head>
+<body>
+        <div id="quadrado" onclick="mudarCor1()" class="blue" onmouseout="ballansaPara()"onmouseover="ballansa()">
+        </div>
+        <script type="text/javascript">
+        
+        var quad = document.getElementById('quadrado');
+        function mudarCor1() {
+            quad.classList.toggle("red");
+            
+        }
+        function mudarCor2() {
+            quad.style.background = "yellow";
+            /*onmouseover="mudarCor2()"*/
+        }
+        function mudarCor3() {
+            quad.style.background = "green";
+            /*onmouseout="mudarCor3()"*/
+        }
+        function ballansa() {
+            quad.classList.add("shake")
+            quad.classList.add("amarelo")
+            
+        }
+        function ballansaPara() {
+            quad.classList.remove("shake")
+            quad.classList.remove("amarelo")
+        }
+
+        
+        </script>
+    
+</body>
+</html>

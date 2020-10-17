@@ -1,0 +1,29 @@
+#quadrado{
+    width: 200px;
+    height: 200px;
+
+}
+
+.blue{
+    background: blue;
+        transition: all 0.25s;
+}
+.red{
+    background: red;
+}
+.amarelo{
+    background: yellow;
+
+}
+.shake{
+    animation: shake 0.25s infinite alternate;
+}
+
+@keyframes shake {
+    0%{
+        transform: translateY(0px)
+    }
+    100%{
+        transform: translateY(10px)
+    }
+}

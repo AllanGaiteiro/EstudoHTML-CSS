@@ -1,0 +1,28 @@
+/*a:link, a:visited, a:active{
+
+}*/
+a{
+
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    font-size: 3rem;
+
+}
+
+a:hover{
+    color: blue;
+    background-color: white;
+    text-decoration: line-through;
+    
+
+
+}
+h1{
+    font-size: 3rem;
+}
+
+h1:hover{
+    font-size: 3.1rem;
+    color: rebeccapurple;
+}

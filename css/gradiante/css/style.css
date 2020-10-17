@@ -1,0 +1,27 @@
+/* Gradiantes */
+
+/*Dois tipos de gradiantes 
+    *linear  to top, top bottom, 45deg/
+    *Radial */
+#gradientes{
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    /* linear*/
+    /*background: linear-gradient(45deg, red, blue,yellow,green);*//*quantas cores voce quiser */
+    /*background: linear-gradient(90deg, red 0%, blue 25%,yellow 50%,green 75%, black 100%);*/
+    
+    /*Radial*/
+    /*background: radial-gradient(red,yellow);*/
+    
+    /* repeat*/
+    background: repeating-radial-gradient( black 20% ,blue 40%);
+
+}
+h1{
+    font-size: 5rem;
+    background: linear-gradient(90deg,red 25%,yellow 75%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+

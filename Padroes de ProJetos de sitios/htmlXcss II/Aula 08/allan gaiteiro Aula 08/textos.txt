@@ -1,0 +1,32 @@
+NAV
+jogos criador jogue
+
+HEAD
+SUPER MARIO
+
+Mario é uma série e franquia de jogos eletrônicos da Nintendo, na qual o mascote da Nintendo e homônimo da série, Mario, é o protagonista. É, hoje, uma das séries de vídeo games mais vendida de todos os tempos, estando atualmente, no primeiro lugar.
+
+Alguns Jogos da série
+
+Super Mario Bros.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non massa egestas, posuere sapien non, volutpat neque. Vestibulum turpis nibh, lacinia sit amet mi vitae, elementum mollis velit. Suspendisse varius posuere massa ut posuere. Fusce vulputate risus vitae metus lacinia, non placerat ligula sollicitudin. Pellentesque orci leo, pulvinar at nibh. 
+
+Super Mario World
+Super Mario Galaxy
+
+O criador
+
+Shigeru Miyamoto é um designer e produtor de jogos eletrônicos japonês, conhecido por ser o criador de algumas das mais bem-sucedidas séries de jogos eletrônicos de todos os tempos.
+
+Miyamoto entrou na Nintendo em 1977, quando a companhia entrava no mercado de jogos. Seus primeiros trabalhos foram em arcades no final da década, e desde então, seus jogos estão em todos os consoles da Nintendo. Séries que Miyamoto criou ou produziu incluem as séries Super Mario, Donkey Kong, The Legend of Zelda, Star Fox, F-Zero, Pikmin e a série Wii.
+
+Quer jogar Mario?
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non massa egestas, posuere sapien non, volutpat neque. Vestibulum turpis nibh, lacinia sit amet mi vitae, elementum mollis velit. Suspendisse varius posuere massa ut posuere. Fusce vulputate risus vitae metus lacinia, non placerat ligula sollicitudin. Pellentesque orci leo, pulvinar at nibh. 
+
+Compre um console
+Nintendo!!
+Nintendo, 2019
+
+Fontes:
+títulos: Luckiest Guy
+Corpo: Roboto
